@@ -1,7 +1,5 @@
 class Solution {
   public:
-  
-  
     void insertAtBottom(stack<int> &st, int x) {
             // code here
            if(st.empty())
@@ -23,7 +21,6 @@ class Solution {
           {
               return ;
           }
-
           int num=st.top();
           st.pop();
           reverseStack(st);
